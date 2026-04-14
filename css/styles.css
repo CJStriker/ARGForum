@@ -24,7 +24,9 @@ body {
 
 
 #main {
-    background: #000000;;
+    background-image: url("../img/Conspiracy-board.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .forum-container {
@@ -56,6 +58,10 @@ body {
 .thread:hover {
     background: #111;
     box-shadow: 0 0 10px #8B0000;
+}
+
+.replies{
+    margin-left: 10px;
 }
 
 .post {
@@ -100,7 +106,7 @@ body {
 .ascii-art {
     font-family: monospace;
     white-space: pre;
-    color: #8B0000;
+    color: #000;
 }
 
 .thread {
@@ -109,9 +115,10 @@ body {
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 8px;
+    top: 50px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: top;
 }
 
 .thread:hover {
