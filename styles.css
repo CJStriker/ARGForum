@@ -4,6 +4,7 @@
 
 /* Dark Web Paranormal Styles */
 body {
+    
     font-family: 'Courier New', monospace;
     background: #000;
     color: #8B0000;
@@ -24,7 +25,8 @@ body {
 
 
 #main {
-    background-image: url("../img/Conspiracy-board.jpeg");
+    display: none;
+    background-image: url("Conspiracy-board.jpeg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
